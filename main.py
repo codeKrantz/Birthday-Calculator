@@ -38,3 +38,5 @@ Day = int(input())
 #calculating date
 Birthday = datetime(Year, Month, Day)
 print("Your birthday is " + str(Birthday))
+
+#calculating how long it has been since original birthday
