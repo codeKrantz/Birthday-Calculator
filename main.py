@@ -40,3 +40,7 @@ Birthday = datetime(Year, Month, Day)
 print("Your birthday is " + str(Birthday))
 
 #calculating how long it has been since original birthday
+time_Since = datetime.now() - Birthday
+print("It has been:")
+print(time_Since)
+print("Since your original birthday")
